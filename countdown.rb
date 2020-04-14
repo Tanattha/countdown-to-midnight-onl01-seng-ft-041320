@@ -11,7 +11,7 @@ end
 
 def countdown_with_sleep(number)
   until number == 0
-    puts "#{seconds_to_midnight} SECOND(S)!"
+    puts "#{number} SECOND(S)!"
     sleep(5)
     number -= 1
   end
